@@ -58,34 +58,34 @@ export default function ContactForm() {
     <div>
       {!showContactFormSuccess && <form ref={form} onSubmit={sendEmail} className="grid grid-cols-1 md:grid-cols-2 gap-x-4 gap-y-4 md:gap-y-6">
         <div className="relative">
-            <input type="text" value={formData.first_name} onChange={handleInputChange} id="input-first-name" name="first_name" className="peer p-4 block w-full border-silver-chalice-400 rounded-lg sm:text-sm placeholder:text-transparent focus:border-astronaut-blue-900 focus:ring-astronaut-blue-900 disabled:opacity-50 disabled:pointer-events-none focus:pt-6 focus:pb-2 not-placeholder-shown:pt-6 not-placeholder-shown:pb-2 autofill:pt-6 autofill:pb-2" />
+            <input type="text" value={formData.first_name} onChange={handleInputChange} required id="input-first-name" name="first_name" className="peer p-4 block w-full border-silver-chalice-400 rounded-lg sm:text-sm placeholder:text-transparent focus:border-astronaut-blue-900 focus:ring-astronaut-blue-900 disabled:opacity-50 disabled:pointer-events-none focus:pt-6 focus:pb-2 not-placeholder-shown:pt-6 not-placeholder-shown:pb-2 autofill:pt-6 autofill:pb-2" />
             <label htmlFor="#input-first-name" className="absolute top-0 start-0 p-4 h-full sm:text-sm truncate pointer-events-none transition ease-in-out duration-100 border border-transparent  origin-[0_0] peer-disabled:opacity-50 peer-disabled:pointer-events-none peer-focus:scale-90 peer-focus:translate-x-0.5 peer-focus:-translate-y-1.5 peer-focus:text-gray-500 peer-not-placeholder-shown:scale-90 peer-not-placeholder-shown:translate-x-0.5 peer-not-placeholder-shown:-translate-y-1.5 peer-not-placeholder-shown:text-gray-500">
                 Prénom
             </label>
             </div>
 
             <div className="relative">
-            <input type="text" value={formData.last_name} onChange={handleInputChange} id="input-last-name" name="last_name" className="peer p-4 block w-full border-silver-chalice-400 rounded-lg sm:text-sm placeholder:text-transparent focus:border-astronaut-blue-900 focus:ring-astronaut-blue-900 disabled:opacity-50 disabled:pointer-events-none focus:pt-6 focus:pb-2 not-placeholder-shown:pt-6 not-placeholder-shown:pb-2 autofill:pt-6 autofill:pb-2" />
+            <input type="text" value={formData.last_name} onChange={handleInputChange} required id="input-last-name" name="last_name" className="peer p-4 block w-full border-silver-chalice-400 rounded-lg sm:text-sm placeholder:text-transparent focus:border-astronaut-blue-900 focus:ring-astronaut-blue-900 disabled:opacity-50 disabled:pointer-events-none focus:pt-6 focus:pb-2 not-placeholder-shown:pt-6 not-placeholder-shown:pb-2 autofill:pt-6 autofill:pb-2" />
             <label htmlFor="#input-last-name" className="absolute top-0 start-0 p-4 h-full sm:text-sm truncate pointer-events-none transition ease-in-out duration-100 border border-transparent  origin-[0_0] peer-disabled:opacity-50 peer-disabled:pointer-events-none peer-focus:scale-90 peer-focus:translate-x-0.5 peer-focus:-translate-y-1.5 peer-focus:text-gray-500 peer-not-placeholder-shown:scale-90 peer-not-placeholder-shown:translate-x-0.5 peer-not-placeholder-shown:-translate-y-1.5 peer-not-placeholder-shown:text-gray-500">
                 Nom de famille
             </label>
             </div>
 
             <div className="relative">
-            <input type="email" value={formData.email} onChange={handleInputChange} id="input-email" name="email" className="peer p-4 block w-full border-silver-chalice-400 rounded-lg sm:text-sm placeholder:text-transparent focus:border-astronaut-blue-900 focus:ring-astronaut-blue-900 disabled:opacity-50 disabled:pointer-events-none focus:pt-6 focus:pb-2 not-placeholder-shown:pt-6 not-placeholder-shown:pb-2 autofill:pt-6 autofill:pb-2" />
+            <input type="email" value={formData.email} onChange={handleInputChange} required id="input-email" name="email" className="peer p-4 block w-full border-silver-chalice-400 rounded-lg sm:text-sm placeholder:text-transparent focus:border-astronaut-blue-900 focus:ring-astronaut-blue-900 disabled:opacity-50 disabled:pointer-events-none focus:pt-6 focus:pb-2 not-placeholder-shown:pt-6 not-placeholder-shown:pb-2 autofill:pt-6 autofill:pb-2" />
             <label htmlFor="#input-email" className="absolute top-0 start-0 p-4 h-full sm:text-sm truncate pointer-events-none transition ease-in-out duration-100 border border-transparent  origin-[0_0] peer-disabled:opacity-50 peer-disabled:pointer-events-none peer-focus:scale-90 peer-focus:translate-x-0.5 peer-focus:-translate-y-1.5 peer-focus:text-gray-500 peer-not-placeholder-shown:scale-90 peer-not-placeholder-shown:translate-x-0.5 peer-not-placeholder-shown:-translate-y-1.5 peer-not-placeholder-shown:text-gray-500">
                 Adresse e-mail
             </label>
             </div>
 
             <div className="relative">
-            <input type="text" value={formData.organisation} onChange={handleInputChange} id="input-organisation" name="organisation" className="peer p-4 block w-full border-silver-chalice-400 rounded-lg sm:text-sm placeholder:text-transparent focus:border-astronaut-blue-900 focus:ring-astronaut-blue-900 disabled:opacity-50 disabled:pointer-events-none focus:pt-6 focus:pb-2 not-placeholder-shown:pt-6 not-placeholder-shown:pb-2 autofill:pt-6 autofill:pb-2" />
+            <input type="text" value={formData.organisation} onChange={handleInputChange} required id="input-organisation" name="organisation" className="peer p-4 block w-full border-silver-chalice-400 rounded-lg sm:text-sm placeholder:text-transparent focus:border-astronaut-blue-900 focus:ring-astronaut-blue-900 disabled:opacity-50 disabled:pointer-events-none focus:pt-6 focus:pb-2 not-placeholder-shown:pt-6 not-placeholder-shown:pb-2 autofill:pt-6 autofill:pb-2" />
             <label htmlFor="#input-organisation" className="absolute top-0 start-0 p-4 h-full sm:text-sm truncate pointer-events-none transition ease-in-out duration-100 border border-transparent  origin-[0_0] peer-disabled:opacity-50 peer-disabled:pointer-events-none peer-focus:scale-90 peer-focus:translate-x-0.5 peer-focus:-translate-y-1.5 peer-focus:text-gray-500 peer-not-placeholder-shown:scale-90 peer-not-placeholder-shown:translate-x-0.5 peer-not-placeholder-shown:-translate-y-1.5 peer-not-placeholder-shown:text-gray-500">
                 Organisation
             </label>
             </div>
 
-            <textarea value={formData.message} onChange={handleInputChange} name="message" placeholder="Message" className="col-span-full py-1 sm:py-2 px-3 block w-full border-silver-chalice-400 rounded-lg sm:text-sm focus:border-astronaut-blue-900 focus:ring-astronaut-blue-900 disabled:opacity-50 disabled:pointer-events-none" rows={6}></textarea>
+            <textarea value={formData.message} onChange={handleInputChange} required name="message" placeholder="Message" className="col-span-full py-1 sm:py-2 px-3 block w-full border-silver-chalice-400 rounded-lg sm:text-sm focus:border-astronaut-blue-900 focus:ring-astronaut-blue-900 disabled:opacity-50 disabled:pointer-events-none" rows={6}></textarea>
             <div className="col-span-full flex justify-end">
             <button type="submit" className="p-4 bg-anzac-400 text-white uppercase rounded-lg cursor-pointer flex gap-x-2 items-center">
                 { isSubmitingContactForm &&

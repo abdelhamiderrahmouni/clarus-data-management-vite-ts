@@ -34,7 +34,7 @@ function App() {
         </div>
       </header>
       <div className="px-4 bg-black-pearl-950 text-white relative overflow-hidden">
-        <svg className="absolute left-0 bottom-0" width="626" height="224" viewBox="0 0 626 224" fill="none" xmlns="http://www.w3.org/2000/svg"><rect opacity=".06" x="574.141" y="177.357" width="162.632" height="162.632" rx="22.789" transform="rotate(120 574.141 177.357)" fill="#F7F7F7"/><rect opacity=".06" x="247.57" y="210.745" width="162.632" height="162.632" rx="22.789" transform="rotate(120 247.57 210.745)" fill="#F7F7F7"/><rect opacity=".06" x="407.69" y="81.255" width="162.632" height="162.632" rx="22.789" transform="rotate(120 407.69 81.255)" fill="#F7F7F7"/></svg>
+        <svg className="absolute left-0 bottom-0 max-w-xl" width="626" height="224" viewBox="0 0 626 224" fill="none" xmlns="http://www.w3.org/2000/svg"><rect opacity=".06" x="574.141" y="177.357" width="162.632" height="162.632" rx="22.789" transform="rotate(120 574.141 177.357)" fill="#F7F7F7"/><rect opacity=".06" x="247.57" y="210.745" width="162.632" height="162.632" rx="22.789" transform="rotate(120 247.57 210.745)" fill="#F7F7F7"/><rect opacity=".06" x="407.69" y="81.255" width="162.632" height="162.632" rx="22.789" transform="rotate(120 407.69 81.255)" fill="#F7F7F7"/></svg>
         <div className="relative py-16 max-w-7xl mx-auto">
           <p className="max-w-4xl mx-auto text-2xl lg:text-4xl font-bold text-center">
             Libérez-vous des complexités techniques 

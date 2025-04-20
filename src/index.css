@@ -61,6 +61,10 @@ html {
 
   --color-astronaut-blue-900: #024D78;
   --color-astronaut-blue-950: #02395E;
+
+
+  --font-montserrat: 'Montserrat', sans-serif;
+  --font-roboto: 'Roboto', sans-serif;
 }
 
 @theme inline {

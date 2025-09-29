@@ -87,7 +87,7 @@ export default function ContactForm() {
 
             <textarea value={formData.message} onChange={handleInputChange} required name="message" placeholder="Message" className="col-span-full py-1 sm:py-2 px-3 block w-full border-silver-chalice-400 rounded-lg sm:text-sm focus:border-astronaut-blue-900 focus:ring-astronaut-blue-900 disabled:opacity-50 disabled:pointer-events-none" rows={6}></textarea>
             <div className="col-span-full flex justify-end">
-            <button type="submit" className="p-4 bg-anzac-400 text-white uppercase rounded-lg cursor-pointer flex gap-x-2 items-center">
+            <button type="submit" className="p-4 bg-anzac-400 text-[#F5F5F5] uppercase rounded-lg font-bold text-shadow-sm cursor-pointer flex gap-x-2 items-center">
                 { isSubmitingContactForm &&
                 <svg className="text-white animate-spin" xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round"><path stroke="none" d="M0 0h24v24H0z" fill="none"/><path d="M12 3a9 9 0 1 0 9 9" /></svg>
                 }

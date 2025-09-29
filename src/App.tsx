@@ -28,7 +28,7 @@ function App() {
               pensée spécifiquement pour PME et organisations souhaitant structurer leur données.
             </p>
           </div>
-          <a href="#contactez-nous" className="py-4 px-6 lg:px-12 bg-anzac-400 text-white uppercase rounded-lg">
+          <a href="#contactez-nous" className="py-4 px-6 lg:px-12 bg-anzac-400 text-[#F5F5F5] uppercase rounded-lg font-bold text-shadow-sm">
             REJOIGNEZ NOS CLIENTS PILOTES
           </a>
         </div>
@@ -186,7 +186,7 @@ function App() {
         <svg className="absolute top-0 left-0" width="487" height="372" viewBox="0 0 487 372" fill="none" xmlns="http://www.w3.org/2000/svg"><path d="M349-42C179 121.5 274 202 37 270S-275 130.313-275-42s139.687-312 312-312S519-205.5 349-42" fill="#fff" fillOpacity=".15"/><path d="M37-398c95.337 0 225.069 40.008 310.557 103.331 42.655 31.596 80.651 73.717 91.688 125.824 11.806 55.734-9.566 110.298-59.744 158.558-78.736 75.726-93.044 127.442-122.869 181.389-15.601 28.217-35.11 55.481-68.949 80.055-32.838 23.846-76.738 43.402-138.548 61.137-65.562 18.811-123.672 19.583-173.983 3.876-50.527-15.775-89.456-47.017-118.317-85.773C-299.603 154.609-319 48.589-319-42c0-196.613 159.387-356 356-356Z" stroke="#fff" strokeOpacity=".06" strokeWidth="88"/></svg>
         <div className="relative max-w-7xl mx-auto space-y-12 py-16">
           <SectionHeader className="text-white">
-            Qui est concernés ?
+            Qui est concerné ?
           </SectionHeader>
           <div className="grid grid-cols-1 lg:grid-cols-3 gap-8">
             <Card className="p-6 lg:p-8 flex gap-x-4 lg:gap-x-6 items-start">
@@ -200,11 +200,7 @@ function App() {
                   </h3>
                 </Title>
                 <CardBody>
-                  <ul className="list-disc list-inside">
-                    <li>Industrie manufacturière</li>
-                    <li>Industrie de l&apos;énergie</li>
-                    <li>Chimie et pharmaceutique</li>
-                  </ul>
+                  Manufacturière, énergie, chimie, pharma, transport, <br/> BTP et logistique.
                 </CardBody>
               </div>
             </Card>
@@ -216,12 +212,12 @@ function App() {
               <div className="space-y-3">
                 <Title className="text-xl text-astronaut-blue-950">
                   <h3>
-                  PME et start-ups
+                  PME et ETI
                   </h3>
                 </Title>
                 <CardBody>
                   <p>
-                  Extension PME et scale-ups en structuration.
+                  Entreprises en croissance <br/>ou en structuration.
                   </p>
                 </CardBody>
               </div>
@@ -239,7 +235,7 @@ function App() {
                 </Title>
                 <CardBody>
                   <p>
-                    Organisations publiques ou privées.
+                    Structures publiques <br/>ou privées multi-acteurs.
                   </p>
                 </CardBody>
               </div>

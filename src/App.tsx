@@ -18,14 +18,20 @@ function App() {
           <img src="/logo.svg" alt="alt" className="w-28" width="24" height="24" />
           <div className="space-y-4">
             <h1 className="text-4xl lg:text-6xl font-bold text-center text-white">
-              <span className="block md:inline text-transparent bg-gradient-to-r from-anzac-400 to-anzac-200 bg-clip-text">
-                Transformez
+              <span className='block'>
+                Libérez la&nbsp;
+                <span className="text-transparent bg-gradient-to-r from-anzac-400 to-anzac-200 bg-clip-text">
+                  compléxité.
+                </span>
               </span>
-              &nbsp;le chaos informationnel en <span className="text-anzac-400">clarté stratégique</span>
+              <span className='block'>
+                &nbsp;Naviguez avec&nbsp;
+                <span className="text-anzac-400">clarté</span>.
+              </span>
             </h1>
             <p className="max-w-4xl mx-auto text-lg lg:text-xl text-white text-center">
-              La plateforme SaaS hybride de gouvernance des données de bout en bout,
-              pensée spécifiquement pour PME et organisations souhaitant structurer leur données.
+              La plateforme SaaS <strong className="font-bold">hybride</strong> qui <strong className="font-bold">simplifie</strong> et <strong className="font-bold">automatisé</strong> la gouvernance des données,
+              pour accompagner les PME, ETI et organisations à <strong className="font-bold">piloter, décider</strong> et <strong className="font-bold">se transformer</strong> avec clarté et confiance.
             </p>
           </div>
           <a href="#contactez-nous" className="py-4 px-6 lg:px-12 bg-anzac-400 text-[#F5F5F5] uppercase rounded-lg font-bold text-shadow-sm">
@@ -37,8 +43,7 @@ function App() {
         <svg className="absolute left-0 bottom-0 max-w-xl" width="626" height="224" viewBox="0 0 626 224" fill="none" xmlns="http://www.w3.org/2000/svg"><rect opacity=".06" x="574.141" y="177.357" width="162.632" height="162.632" rx="22.789" transform="rotate(120 574.141 177.357)" fill="#F7F7F7"/><rect opacity=".06" x="247.57" y="210.745" width="162.632" height="162.632" rx="22.789" transform="rotate(120 247.57 210.745)" fill="#F7F7F7"/><rect opacity=".06" x="407.69" y="81.255" width="162.632" height="162.632" rx="22.789" transform="rotate(120 407.69 81.255)" fill="#F7F7F7"/></svg>
         <div className="relative py-16 max-w-7xl mx-auto">
           <p className="max-w-4xl mx-auto text-2xl lg:text-4xl font-bold text-center">
-            Libérez-vous des complexités techniques 
-            pour  piloter, décider et transformer.
+            Posez, dès le départ, un cadre clair, partagé et actionnable.
           </p>
         </div>
       </div>
@@ -56,11 +61,11 @@ function App() {
               <div className="space-y-3">
                 <Title>
                   <h3>
-                    Solution tout-en-un
+                    Solution complète et modulable
                   </h3>
                 </Title>
                 <CardBody>
-                  <p>Choisissez entre une solution complète de gouvernance ou sélectionnez uniquement les modules dont vous avez besoin.</p>
+                  <p>Optez pour une gouvernance de données clé-en-main ou activez uniquement les modules adaptés à vos priorités.</p>
                   <ul className="list-disc list-inside">
                     <li>Gouvernance complète de vos données</li>
                     <li>Modules spécifiques selon vos priorités</li>
@@ -78,12 +83,12 @@ function App() {
               <div className="space-y-3">
                 <Title>
                   <h3>
-                  Ergonomie intuitive, prise en main rapide
+                  Prise en main intuitive et rapide
                   </h3>
                 </Title>
                 <CardBody>
                   <p>
-                  Accédez à une plateforme intuitive avec diagnostic intégré pour piloter efficacement votre gouvernance de données.
+                    Pilotez votre gouvernance grâce à une plateforme claire, ergonomique et intégrant un diagnostic de maturité.
                   </p>
                   <ul className="list-disc list-inside">
                     <li>Tableaux de bord personnalisables</li>
@@ -106,7 +111,7 @@ function App() {
                 </Title>
                 <CardBody>
                   <p>
-                    Bénéficiez d&apos;un support expert et de formations personnalisées pour devenir acteur de vos données.
+                    Avancez en confiance grâce à un accompagnement stratégique et des formations conçues pour vos équipes.
                   </p>
                   <ul className="list-disc list-inside">
                     <li>Experts dédiés à votre projet</li>
@@ -133,7 +138,7 @@ function App() {
                   <div className="border-2 border-anzac-400 text-anzac-400 w-8 h-8 rounded-full flex justify-center items-center">1</div>
                 </div>
                 <div className="flex flex-col gap-y-1.5">
-                  <strong className="text-xl font-medium">Diagnostic approfondi de l&apos;existant</strong>
+                  <strong className="text-xl font-medium">Diagnostic de maturité</strong>
                   <p>Identifiez vos axes d&apos;améliorations en quelques clics.</p>
                 </div>
               </li>
@@ -142,7 +147,7 @@ function App() {
                   <div className="border-2 border-anzac-400 text-anzac-400 w-8 h-8 rounded-full flex justify-center items-center">2</div>
                 </div>
                 <div className="flex flex-col gap-y-1.5">
-                  <strong className="text-xl font-medium">Conception stratégie sur-mesure</strong>
+                  <strong className="text-xl font-medium">Stratégie sur-mesure</strong>
                   <p>Concevez un plan sur mesure, aligné sur vos priorités.</p>
                 </div>
               </li>
@@ -151,7 +156,7 @@ function App() {
                   <div className="border-2 border-anzac-400 text-anzac-400 w-8 h-8 rounded-full flex justify-center items-center">3</div>
                 </div>
                 <div className="flex flex-col gap-y-1.5">
-                  <strong className="text-xl font-medium">Mise en œuvre modulable et sans friction</strong>
+                  <strong className="text-xl font-medium">Mise en œuvre agile et modulable</strong>
                   <p>Déployez nos modules sans perturber vos opérations.</p>
                 </div>
               </li>
@@ -160,7 +165,7 @@ function App() {
                   <div className="border-2 border-anzac-400 text-anzac-400 w-8 h-8 rounded-full flex justify-center items-center">4</div>
                 </div>
                 <div className="flex flex-col gap-y-1.5">
-                  <strong className="text-xl font-medium">Suivi et optimisation continue</strong>
+                  <strong className="text-xl font-medium">Suivi et ajustement continu</strong>
                   <p>Suivez vos progrès en temps réel tout en ajustant en continu.</p>
                 </div>
               </li>
@@ -186,7 +191,7 @@ function App() {
         <svg className="absolute top-0 left-0" width="487" height="372" viewBox="0 0 487 372" fill="none" xmlns="http://www.w3.org/2000/svg"><path d="M349-42C179 121.5 274 202 37 270S-275 130.313-275-42s139.687-312 312-312S519-205.5 349-42" fill="#fff" fillOpacity=".15"/><path d="M37-398c95.337 0 225.069 40.008 310.557 103.331 42.655 31.596 80.651 73.717 91.688 125.824 11.806 55.734-9.566 110.298-59.744 158.558-78.736 75.726-93.044 127.442-122.869 181.389-15.601 28.217-35.11 55.481-68.949 80.055-32.838 23.846-76.738 43.402-138.548 61.137-65.562 18.811-123.672 19.583-173.983 3.876-50.527-15.775-89.456-47.017-118.317-85.773C-299.603 154.609-319 48.589-319-42c0-196.613 159.387-356 356-356Z" stroke="#fff" strokeOpacity=".06" strokeWidth="88"/></svg>
         <div className="relative max-w-7xl mx-auto space-y-12 py-16">
           <SectionHeader className="text-white">
-            Qui est concerné ?
+            Qui est concernés ?
           </SectionHeader>
           <div className="grid grid-cols-1 lg:grid-cols-3 gap-8">
             <Card className="p-6 lg:p-8 flex gap-x-4 lg:gap-x-6 items-start">
@@ -200,7 +205,11 @@ function App() {
                   </h3>
                 </Title>
                 <CardBody>
-                  Manufacturière, énergie, chimie, pharma, transport, <br/> BTP et logistique.
+                  <ul className="list-disc list-inside">
+                    <li>Industrie manufacturière</li>
+                    <li>Industrie de l&apos;énergie</li>
+                    <li>Chimie et pharmaceutique</li>
+                  </ul>
                 </CardBody>
               </div>
             </Card>
@@ -212,12 +221,12 @@ function App() {
               <div className="space-y-3">
                 <Title className="text-xl text-astronaut-blue-950">
                   <h3>
-                  PME et ETI
+                  PME et start-ups
                   </h3>
                 </Title>
                 <CardBody>
                   <p>
-                  Entreprises en croissance <br/>ou en structuration.
+                  Extension PME et scale-ups en structuration.
                   </p>
                 </CardBody>
               </div>
@@ -235,7 +244,7 @@ function App() {
                 </Title>
                 <CardBody>
                   <p>
-                    Structures publiques <br/>ou privées multi-acteurs.
+                    Organisations publiques ou privées.
                   </p>
                 </CardBody>
               </div>

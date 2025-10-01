@@ -17,7 +17,7 @@ function App() {
         <div className="py-28 md:pt-48 max-w-7xl mx-auto px-4 flex flex-col items-center gap-y-12">
           <img src="/logo.svg" alt="alt" className="w-28" width="24" height="24" />
           <div className="space-y-4">
-            <h1 className="text-4xl lg:text-6xl font-bold text-center text-white">
+            <h1 className="text-4xl md:text-5xl lg:text-6xl font-bold text-center text-white">
               <span className='block'>
                 Libérez la&nbsp;
                 <span className="text-transparent bg-gradient-to-r from-anzac-400 to-anzac-200 bg-clip-text">
@@ -30,7 +30,7 @@ function App() {
               </span>
             </h1>
             <p className="max-w-4xl mx-auto text-lg lg:text-xl text-white text-center">
-              La plateforme SaaS <strong className="font-bold">hybride</strong> qui <strong className="font-bold">simplifie</strong> et <strong className="font-bold">automatisé</strong> la gouvernance des données,
+              La plateforme SaaS <strong className="font-bold">hybride</strong> qui <strong className="font-bold">simplifie</strong> et <strong className="font-bold">automatise</strong> la gouvernance des données,
               pour accompagner les PME, ETI et organisations à <strong className="font-bold">piloter, décider</strong> et <strong className="font-bold">se transformer</strong> avec clarté et confiance.
             </p>
           </div>
@@ -42,7 +42,7 @@ function App() {
       <div className="px-4 bg-black-pearl-950 text-white relative overflow-hidden">
         <svg className="absolute left-0 bottom-0 max-w-xl" width="626" height="224" viewBox="0 0 626 224" fill="none" xmlns="http://www.w3.org/2000/svg"><rect opacity=".06" x="574.141" y="177.357" width="162.632" height="162.632" rx="22.789" transform="rotate(120 574.141 177.357)" fill="#F7F7F7"/><rect opacity=".06" x="247.57" y="210.745" width="162.632" height="162.632" rx="22.789" transform="rotate(120 247.57 210.745)" fill="#F7F7F7"/><rect opacity=".06" x="407.69" y="81.255" width="162.632" height="162.632" rx="22.789" transform="rotate(120 407.69 81.255)" fill="#F7F7F7"/></svg>
         <div className="relative py-16 max-w-7xl mx-auto">
-          <p className="max-w-4xl mx-auto text-2xl lg:text-4xl font-bold text-center">
+          <p className="lg:max-w-3xl mx-auto text-2xl lg:text-4xl font-bold text-center">
             Posez, dès le départ, un cadre clair, partagé et actionnable.
           </p>
         </div>

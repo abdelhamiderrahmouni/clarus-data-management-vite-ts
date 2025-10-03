@@ -13,6 +13,16 @@
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&family=Roboto:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
 
+    <script>
+      (function() {
+        const redirectPath = sessionStorage.getItem('spa-redirect')
+        if (redirectPath) {
+          sessionStorage.removeItem('spa-redirect')
+          window.history.replaceState(null, '', redirectPath)
+        }
+      })();
+    </script>
+
   </head>
   <body>
     <div id="root"></div>
